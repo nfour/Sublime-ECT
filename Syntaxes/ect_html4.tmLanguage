@@ -21,7 +21,7 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>ECT &lt;?</string>
+	<string>ECT &lt;&lt;</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -502,7 +502,7 @@
 		<key>embedded_coffee</key>
 		<dict>
 			<key>begin</key>
-			<string>&lt;\?</string>
+			<string>&lt;&lt;</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -520,7 +520,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>\?&gt;</string>
+			<string>&gt;&gt;</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
@@ -535,7 +535,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(\b(end|include|extend|block|content)\b|:(?=\s*\?&gt;))</string>
+					<string>(\b(end|include|extend|block|content)\b|:(?=\s*&gt;&gt;))</string>
 					<key>name</key>
 					<string>keyword.control.ect</string>
 				</dict>
