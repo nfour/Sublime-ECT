@@ -6,8 +6,8 @@ See: http://ectjs.com
 Comes with three sets of open and close tags:
 
 ```
-<? ?>
 <% %>
+<? ?>
 {{ }}
 ```
 
