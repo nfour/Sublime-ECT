@@ -11,7 +11,7 @@ Comes with three sets of open and close tags:
 {{ }}
 ```
 
-# Advanced, optional
+### Optional
 
 Additionally, you may use your own tags by copying a .tmLanguage file. The `{{ }}` template, `ect_html3.tmLanguage`, would be the easiest.
 Replace all occurances of each open and close tag with your own open and close tag characters.
