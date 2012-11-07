@@ -11,6 +11,8 @@ Comes with three sets of open and close tags:
 {{ }}
 ```
 
+You would specify `open` and `close` options when you create a new ECT engine/renderer, within your application.
+
 ### Optional
 
 Additionally, you may use your own tags by copying a .tmLanguage file.  
