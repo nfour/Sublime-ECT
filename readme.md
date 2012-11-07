@@ -18,7 +18,7 @@ You would specify `open` and `close` options when you create a new ECT engine/re
 Additionally, you may use your own tags by copying a .tmLanguage file.  
 The `{{ }}` template, `ect_html3.tmLanguage`, would be the easiest.  
 
-Replace all occurances of each open and close tag with your own open and close tag characters.
+Replace all occurances (they're all contained within one `<dict>`) of each open and close tag with your own open and close tag characters.
 
 Also, be sure to rename the .tmLanguage near the top of the file:
 ```
