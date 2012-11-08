@@ -3,7 +3,7 @@ Sublime Text 2 Syntax highlighting for ECT, embedded CoffeeScript HTML
 
 See: http://ectjs.com
 
-Comes with three sets of open and close tags:
+Comes with sets of open and close tags:
 
 ```
 <% %>
@@ -16,7 +16,7 @@ You would specify `open` and `close` options when you create a new ECT engine/re
 
 ### Optional
 
-Additionally, you may use your own tags by copying a .tmLanguage file.  
+Additionally, you may create your own tags by copying a .tmLanguage file.  
 The `{{ }}` template, `ect_html3.tmLanguage`, would be the easiest.  
 
 Replace all occurances (they're all contained within one `<dict>` around line `500`) of each open and close tag with your own open and close tag characters.
