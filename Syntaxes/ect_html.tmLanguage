@@ -535,9 +535,28 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(\b(end|include|extend|block|content)\b|:(?=\s*\%&gt;))</string>
+					<string>\b(end|include|extend|block|content)\b</string>
 					<key>name</key>
 					<string>keyword.control.ect</string>
+				</dict>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>source.coffee</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.control.ect</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(\w+)?\s*(:)(?=\s*\%&gt;)</string>
+					<key>name</key>
+					<string></string>
 				</dict>
 				<dict>
 					<key>include</key>
