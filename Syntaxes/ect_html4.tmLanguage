@@ -554,7 +554,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(\w+)?\s*(:)(?=\s*&gt;&gt;)</string>
+					<string>([a-zA-Z\$_][a-zA-Z0-9\$_\.]*)?\s*(:)(?=\s*&gt;&gt;)</string>
 					<key>name</key>
 					<string></string>
 				</dict>
