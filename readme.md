@@ -1,5 +1,6 @@
 
-Sublime Text 2 Syntax highlighting for ECT, embedded CoffeeScript HTML
+Sublime Text 2 Syntax highlighting for ECT and ECO, embedded CoffeeScript HTML  
+Additionally, as ECT is backward compatible with ECO, so is this.
 
 See: http://ectjs.com
 
