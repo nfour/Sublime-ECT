@@ -535,7 +535,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(end|include|extend|block|content)\b</string>
+					<string>\b(end|include|extend|block|content|else)\b</string>
 					<key>name</key>
 					<string>keyword.control.ect</string>
 				</dict>
